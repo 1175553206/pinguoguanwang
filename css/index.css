@@ -1,0 +1,881 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-16 10:32:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 19:48:04
+*/
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;	
+}
+header main{
+	height: 100%;
+	margin: 0 auto;
+}
+header main a{
+	float: right;
+	font-size: 10px;
+	color: #a8a8aa;
+	line-height: 40px;
+}
+
+
+
+/* 头部结束 */
+
+/* 导航开始 */
+.nav1{
+	width: 100%;
+	height: 44px;
+	background: #333;
+}
+.nav1 ul{
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav1 ul li a{
+	font-size: 12px;
+	color: #fff;
+	line-height: 44px;
+}
+
+.nav2{
+	width: 100%;
+	height: 44px;
+	background: #333;
+
+}
+.nav2 ul{
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav2 ul li a{
+	font-size: 12px;
+	color: #fff;
+	line-height: 44px;
+}
+.icon{
+	font-family:"iconfont" ;
+    font-style:normal;
+    font-size: 20px;
+    color: #fff;
+    line-height: 44px;
+}
+
+/* 导航结束 */
+/* banner开始 */
+.img-box{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.imglist{
+	width: 100%;
+	height: auto;
+}
+.dange{
+	height: 585px;
+	background:#f9f0eb;
+	margin-bottom: 12px;
+}
+.dange-lj{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:#f9f0eb;
+}
+.bn-zi{
+	width: 100%;
+	height: 97px;
+}
+.bn-zi1{
+	font-size: 56px;
+	color: #111;
+	font-weight:600;
+	text-align: center;
+}
+.bn-zi2{
+	font-size: 24px;
+	color: #111;
+	text-align: center;
+}
+
+.bn-tu{
+	background: pink;
+	margin: 0 auto;
+	margin-bottom: 0;
+	
+}
+
+/* banner结束 */
+/*iPhoneX开始   */
+.iplist{
+	width: 100%;
+	height: auto;
+}
+.ipxdange{
+	width: 100%;
+	height: 580px;
+	margin-bottom: 12px;
+}
+.ipdange-lj{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:#fafafa;
+}
+.ipzi{
+	padding-top: 56px;
+}
+
+
+.ip-tu{
+	margin: 0 auto;
+	margin-bottom: 0;
+	margin-top: 160px;
+}
+/* <!--iPhoneX结束  --> */
+
+/* <!--iw开始  --> */
+.iw-tu1{
+    margin: 0 auto;
+	margin-bottom: 0;
+	padding-top: 56px;
+}
+.iw-zbox{
+	font-size: 27px;
+	color: #111;
+	font-weight: 400;
+	margin-top: 6px;
+	text-align: center;
+}
+.iw-tu2{
+    margin: 0 auto;
+	margin-bottom: 0;
+	
+}
+
+/* <!--iw结束  --> */
+
+/* <!-- is开始 --> */
+.isbeijing{
+	width: 100%;
+	height: auto;
+	background: yellow;
+	border-bottom: 10px;
+	
+}
+.islist{
+	width: 100%;
+	height: 100%;
+	background: blue;
+}
+.islist:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+
+.is-dange{
+	float: left;
+}
+
+.is-dange a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:#fafafa;
+}
+.is-zi1{
+	color: #111;
+	font-weight: 600;
+	padding-top: 51px;
+	text-align: center;
+}
+.is-zi2{
+	color: #111;
+	font-weight: 400;
+	padding-top: 5px;
+	text-align: center;
+}
+.is-tu1{
+	margin: 0 auto;
+}
+.is-tu2{
+	margin: 0 auto;
+}
+.is-tu3{
+	margin: 0 auto;
+}
+.is-tu4{
+	margin: 0 auto;
+}
+
+
+
+/* <!-- is结束 --> */
+/* 列表开始 */
+
+.liebiao-bj{
+	width: 100%;
+	height: auto;
+	background: #fafafa;
+	padding-top: 40px;
+}
+.lieb-box{
+	width: 90%;
+	height: 286px;
+	margin: 0 auto;
+}
+.liebiao1{
+	width: 20%;
+	height: 246px;
+	float: left;
+}
+
+.lb-zi1{
+	font-size: 10px;
+	color: #000;
+	line-height: 21px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.lb-zi2{
+	font-size: 10px;
+	color: #000;
+	line-height: 21px;
+	margin-bottom: 6px;
+}
+.liebiao-x{
+	width: 100%;
+	height: auto;
+}
+.liebiao-x li a{
+	font-size: 10px;
+	color: #333;
+	line-height: 21px;
+}
+.lb-zi1:nth-of-type(2){
+	margin-top: 30px;
+}
+/* 列表2开始 */
+.liebiao2{
+	width: 100%;
+	height: 270px;
+	background:  #fafafa;
+}
+.libiao-list{
+	width:100%;
+	height: auto;
+	background:  #fafafa; 
+	margin: 0 auto;
+}
+.lb-dange{
+	width: 100%;
+	height: 38px;
+	background: a;
+	padding-top: 10px;
+	border-bottom: 1px solid #D7D7D7;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+}
+.lb-zi1{
+	font-size: 12px;
+	color: #333;
+	
+}
+.lb-zi2{
+	font-size: 12px;
+	color: #333;
+	}
+.lb-dange a:hover{
+	color: #111;
+}
+/* 列表结束 */
+
+/* <!-- 底部开始 --> */
+.footer1{
+	width: 100%;
+	height: auto;
+	background:  #fafafa;
+	padding-top: 24px;
+}
+.ft-box{
+	width: 95%;
+	height: 75px;
+	margin: 0 auto;
+	
+}
+.ft-box1{
+	width: 95%;
+	height: 24px;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 7px; 
+}
+.ft-zi1{
+	font-size: 8px;
+	color: #999;
+	float: left;
+}
+.ft-zi2{
+	font-size: 8px;
+	color: #0070c9;
+	float: left;
+}
+.ft-box2{
+	width: 95%;
+	height: 23px;
+	line-height: 23px;
+}
+.dibu-list{
+	width: 370px;
+	height: 23px;
+	float: left;
+	margin-left: 30px;
+}
+.dlist-dange{
+	height: 17px;
+	padding:0 10px ;
+	float: left;
+	margin-top: 3px;
+}
+
+
+.ft-list-zi{
+	font-size: 8px;
+	color: #999;
+	float: left;
+	padding:0 10px ;
+	border-right: 1px solid #d6d6d6;
+}
+
+.ft-list-zi:first-child{
+	padding-left: 0;
+}
+.ft-list-zi:last-child{
+	border-right:0;
+}
+.ft-tubox{
+	width: 46px;
+	height: 23px;
+	float: right;
+
+}
+.ft-tu{
+	width: 16px;
+	height: 16px;
+	background: url('../img/16.png') no-repeat center center;
+	background-size: 16px 16px;
+	float: left;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+.ft-box3{
+	width: 95%;
+	height: 8px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+/* footer2开始 */
+.footer2{
+	width: 100%;
+	height: 128px;
+	background:  #fafafa;
+	padding-top: 17px;
+}
+.ft2-box1{
+	width: 95%;
+	height: 17px;
+}
+.ft2-tubox{
+	width: 100px;
+	height: 30px;
+	padding: 7px 22px;
+	margin-top: 7px;
+
+}
+.ft2-tu{
+	width: 16px;
+	height: 16px;
+	background: url('../img/16.png') no-repeat center center;
+	background-size: 16px 16px;
+	float: left;
+	margin-right: 3px;
+}
+.ft2-box3,.ft2-box5{
+	width: 100%;
+	height: 20px;
+	padding: 7px 22px;
+	margin-bottom: 7px;
+	margin: 0 auto;
+}
+.ft2-box4{
+	width: 100%;
+	height: 20px;
+	padding:7px 0px;
+	margin-bottom: 7px;
+	margin: 0 auto;
+}
+.dibu2-list{
+	width: 100%;
+	height: 23px;
+	float: left;
+	margin: 0 auto;
+}
+.dlist2-dange{
+	height: 17px;
+	float: left;
+	margin-top: 3px;
+}
+
+
+/* <!-- 底部结束 --> */
+
+
+
+
+
+
+
+
+
+/* 响应式 */
+/* 1 */
+@media screen and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width:976px
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.dange{
+		height: 585px;
+	}
+	.bn-zi{
+	padding-top: 50px;
+}
+	.bn-zi1{
+	font-size: 56px;}
+	.bn-zi2{
+	font-size: 24px;}
+	.bn-tu{
+	width: 561px;
+	height: 395px;
+	background: url('../img/large.jpg') no-repeat center center;
+	background-size: 561px 395px;
+	margin-top: 40px;
+	
+    }
+    .ipxdange{
+	height: 580px;}
+    .ip-tu{
+	width: 909px;
+	height: 194px;
+	background: url('../img/2l.jpg') no-repeat center center;
+	background-size: 909px 194px;
+    }
+
+   /* iw开始 */
+    .iw-tu1{
+	width: 182px;
+	height: 72px;
+	background: url('../img/31l.png') no-repeat center center;
+	background-size: 182px 72px;
+    }
+    .iw-zbox{
+	font-size: 27px;
+    }
+    .iw-tu2{
+	width: 767px;
+	height: 341px;
+	background: url('../img/32l.jpg') no-repeat center center;
+	background-size: 767px 341px;
+	padding-top: 100px;
+    }
+/* <!-- is开始 --> */
+   .is-dange{
+   	width: 50%;
+	height: 598px;
+	background: red;
+	border-right: 12px solid #fff;
+	border-bottom: 12px solid #fff;
+   }
+   .is-dange:nth-child(2n+1){
+	border-left: 12px solid #fff;
+}
+
+    .is-zi1{
+	font-size: 48px;
+    }
+    .is-zi2{
+	font-size: 24px;
+    }
+
+
+
+
+    .is-tu1{
+	width: 516px;
+	height: 369px;
+	background: url('../img/41l.jpg') no-repeat center center;
+	background-size: 516px 369px;
+	margin-top: 50px;
+    }
+    .is-tu2{
+	width: 516px;
+	height: 369px;
+	background: url('../img/42l.jpg') no-repeat center center;
+	background-size: 516px 369px;
+	margin-top: 50px;
+    }
+    .is-tu3{
+	width: 516px;
+	height: 369px;
+	background: url('../img/43l.jpg') no-repeat center center;
+	background-size: 516px 369px;
+	margin-top: 20px;
+    }
+    .is-tu4{
+	width: 516px;
+	height: 369px;
+	background: url('../img/macos_high_sierra_large.jpg') no-repeat center center;
+	background-size: 516px 369px;
+	margin-top: 50px;
+    }
+
+
+/* <!-- is结束 --> */
+/* <!-- 列表开始 --> */
+   .liebiao-box{
+   	width: 90%;
+   }
+   .liebiao-bj{
+   	display: block;
+   }
+   .liebiao2{
+   	display: none;
+   }
+
+/* <!-- 列表结束 --> */
+
+/* <!-- 底部开始 --> */
+.ft2-box1{
+	width: 689px;
+}
+.footer1{
+   	display: block;
+   }
+   .footer2{
+   	display: none;
+   }
+
+
+
+
+
+/* <!-- 底部结束 --> */
+
+
+}
+
+/* 2 */
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		
+		padding: 0 22px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.dange{
+		height: 569px;
+	}
+	.bn-zi{
+	padding-top: 44px;
+}
+	.bn-zi1{
+	font-size: 44px;}
+	.bn-zi2{
+	font-size: 22px;}
+	.bn-tu{
+	width: 561px;
+	height: 388px;
+	background: url('../img/medium.jpg') no-repeat center center;
+	background-size: 561px 388px;
+	margin-top: 40px;
+	
+    }
+    .ipxdange{
+	height: 530px;}
+    .ip-tu{
+	width: 704px;
+	height: 148px;
+	background: url('../img/2m.jpg') no-repeat center center;
+	background-size: 704px 148px;
+	margin-top: 180px;
+    }
+     /* iw开始 */
+    .iw-tu1{
+	width: 144px;
+	height: 56px;
+	background: url('../img/31m.png') no-repeat center center;
+	background-size: 144px 56px;
+    }
+    .iw-zbox{
+	font-size: 22px;
+    }
+     .iw-tu2{
+	width: 762px;
+	height: 339px;
+	background: url('../img/32m.jpg') no-repeat center center;
+	background-size: 762px 339px;
+	padding-top: 100px;
+    }
+/* <!-- is开始 --> */
+    .is-dange{
+   	height: 470px;
+    width: 50%;
+	background: red;
+	border-right: 12px solid #fff;
+	border-bottom: 12px solid #fff;
+   }
+
+    .is-dange:nth-child(2n+1){
+	border-left: 12px solid #fff;
+}
+
+    .is-zi1{
+	font-size: 40px;
+    }
+    .is-zi2{
+	font-size: 21px;
+    }
+
+
+ .is-tu1{
+	width: 362px;
+	height: 357px;
+	background: url('../img/41m.jpg') no-repeat center center;
+	background-size: 362px 257px;
+	margin-top: 10px;
+    }
+    .is-tu2{
+	width: 381px;
+	height: 260px;
+	background: url('../img/42m.jpg') no-repeat center center;
+	background-size: 381px 260px;
+	margin-top: 60px;
+    }
+    .is-tu3{
+	width: 322px;
+	height: 220px;
+	background: url('../img/43m.jpg') no-repeat center center;
+	background-size: 322px 220px;
+	margin-top: 10px;
+    }
+    .is-tu4{
+	width: 332px;
+	height: 194px;
+	background: url('../img/macos_high_sierra_medium.jpg') no-repeat center center;
+	background-size: 332px 194px;
+	margin-top: 70px;
+    }
+
+/* <!-- is结束 --> */
+/* <!-- 列表开始 --> */
+.liebiao-box{
+	width: 100%;
+   padding: 0 22px;
+   }
+   .liebiao-bj{
+   	display: block;
+   }
+   .liebiao2{
+   	display: none;
+   }
+
+/* <!-- 列表结束 --> */
+   /* <!-- 底部开始 --> */
+.ft2-box1{
+	 padding: 0 22px;
+}
+
+.footer1{
+   	display: block;
+   }
+   .footer2{
+   	display: none;
+   }
+
+
+
+
+
+/* <!-- 底部结束 --> */
+
+
+}
+
+
+
+/* 3 */
+@media screen and (max-width: 768px){
+	.nav1{
+		display: none;
+	}
+	.nav2{
+		display: block;
+	}
+	.dange{
+		height: 500px;
+	}
+	.bn-zi{
+	padding-top: 24px;
+}
+	
+	.bn-zi1{
+	font-size: 32px;}
+	.bn-zi2{
+	font-size: 19px;}
+	.bn-tu{
+	width: 264px;
+	height: 357px;
+	background: url('../img/small.jpg') no-repeat center center;
+	background-size: 264px 357px;
+	margin-top: 20px;
+	
+    }
+    .ipxdange{
+	height: 500px;}
+    .ip-tu{
+	width: 167px;
+	height: 333px;
+	background: url('../img/2s.jpg') no-repeat center center;
+	background-size: 167px 333px;
+	margin-top: 0px;
+    }
+     /* iw开始 */
+     .ipxdange{
+	height: 500px;}
+    .iw-tu1{
+	width: 144px;
+	height: 56px;
+	background: url('../img/31s.png') no-repeat center center;
+	background-size: 144px 56px;
+    }
+    .iw-zbox{
+	font-size: 19px;
+    }
+
+    .iw-tu2{
+	width: 302px;
+	height: 338px;
+	background: url('../img/32s.jpg') no-repeat center center;
+	background-size: 302px 338px;
+	padding-top: 100px;
+    }
+/* <!-- is开始 --> */
+    .is-dange{
+   	height: 470px;
+   	width: 100%;
+	border: 6px solid #fff; 
+   }
+
+
+
+    .is-zi1{
+	font-size: 32px;
+    }
+    .is-zi2{
+	font-size: 19px;
+    }
+
+
+ .is-tu1{
+	width: 420px;
+	height: 301px;
+	background: url('../img/41s.jpg') no-repeat center center;
+	background-size: 420px 301px;
+	margin-top: 40px;
+    }
+    .is-tu2{
+	width: 420px;
+	height: 301px;
+	background: url('../img/42s.jpg') no-repeat center center;
+	background-size: 420px 301px;
+	margin-top: 40px;
+    }
+    .is-tu3{
+	width:420px;
+	height: 301px;
+	background: url('../img/43s.jpg') no-repeat center center;
+	background-size: 420px 301px;
+	margin-top: 3px;
+    }
+    .is-tu4{
+	width: 420px;
+	height: 201px;
+	background: url('../img/macos_high_sierra_small.jpg') no-repeat center center;
+	background-size: 420px 201px;
+	margin-top: 60px;
+    }
+
+
+/* <!-- is结束 --> */
+/* <!-- 列表开始 --> */
+   .liebiao-bj{
+   	display: none;
+   }
+   .liebiao2{
+   	display: block;
+   }
+   .libiao-list{
+	 padding: 0 22px;
+}
+
+
+/* <!-- 列表结束 --> */
+
+   /* <!-- 底部开始 --> */
+
+.footer2{
+   	display: block;
+   }
+   .footer1{
+   	display: none;
+   }
+   .dibu2-list{
+	 padding: 0 22px;
+}
+
+
+
+
+
+/* <!-- 底部结束 --> */
+
+}
+
